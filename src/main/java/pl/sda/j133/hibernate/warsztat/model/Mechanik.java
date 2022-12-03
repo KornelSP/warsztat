@@ -23,4 +23,7 @@ public class Mechanik {
     @ToString.Exclude
     @EqualsAndHashCode.Exclude
     private Set<SerwisPojazdu> serwisy;
+
+    public static class SerwisPojazdu {
+    }
 }
